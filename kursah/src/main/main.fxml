@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="backplane" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller">
+    <Canvas fx:id="canvas" height="400.0" onMousePressed="#runTime" width="400.0" />
+    <MenuBar layoutX="305.0" layoutY="1.0">
+        <Menu mnemonicParsing="false" text="File">
+            <MenuItem mnemonicParsing="false" onAction="#exit" text="Close" />
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+            <MenuItem mnemonicParsing="false" onAction="#about" text="Сontrol" />
+        </Menu>
+    </MenuBar>
+   <Button layoutX="170.0" layoutY="3.0" mnemonicParsing="false" onAction="#rules" text="Rules!" />
+</AnchorPane>
