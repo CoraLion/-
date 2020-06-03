@@ -1,12 +1,8 @@
 package main.GameField;
 
-
-import javafx.geometry.Point2D;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
-import javafx.scene.shape.Rectangle;
 import main.Controller;
 import org.w3c.dom.css.Rect;
 
